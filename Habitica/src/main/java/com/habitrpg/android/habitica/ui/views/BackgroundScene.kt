@@ -5,6 +5,7 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.ImageShader
@@ -21,11 +22,9 @@ import com.habitrpg.android.habitica.R
 import java.util.Calendar
 
 @Composable
-private fun getBackgroundPainter(): ImageBitmap {
-    val calendar = Calendar.getInstance()
-    val month = calendar.get(Calendar.MONTH)
-    return ImageBitmap.imageResource(
-        when (month) {
+private fun getBackgroundPainter() =
+    ImageBitmap.imageResource(
+        when (Calendar.getInstance().get(Calendar.MONTH)) {
             Calendar.JANUARY -> R.drawable.stable_tile_janurary
             Calendar.FEBRUARY -> R.drawable.stable_tile_february
             Calendar.MARCH -> R.drawable.stable_tile_march
@@ -39,19 +38,19 @@ private fun getBackgroundPainter(): ImageBitmap {
             Calendar.NOVEMBER -> R.drawable.stable_tile_november
             Calendar.DECEMBER -> R.drawable.stable_tile_december
             else -> R.drawable.stable_tile_may
-        },
+        }
     )
-}
+
 
 @Composable
 fun BackgroundScene(modifier: Modifier = Modifier) {
-    val image = getBackgroundPainter()
+    val image =  getBackgroundPainter()
     Canvas(
         modifier =
-            modifier
-                .height(124.dp)
-                .fillMaxWidth()
-                .zIndex(1f),
+        modifier
+            .height(124.dp)
+            .fillMaxWidth()
+            .zIndex(1f),
         onDraw = {
             val bitmap =
                 Bitmap.createScaledBitmap(

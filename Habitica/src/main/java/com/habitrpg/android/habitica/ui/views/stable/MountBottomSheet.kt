@@ -76,7 +76,7 @@ fun MountBottomSheet(
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val infiniteTransition = rememberInfiniteTransition()
+    val infiniteTransition = rememberInfiniteTransition(label = "")
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,

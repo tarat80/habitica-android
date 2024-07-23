@@ -164,11 +164,11 @@ class SetupActivity : BaseActivity(), ViewPager.OnPageChangeListener {
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
             imm?.hideSoftInputFromWindow(currentFocus?.windowToken, 0)
         }
-        binding.viewPager.currentItem = binding.viewPager.currentItem + 1
+        binding.viewPager.currentItem += 1
     }
 
     private fun previousClicked() {
-        binding.viewPager.currentItem = binding.viewPager.currentItem - 1
+        binding.viewPager.currentItem -= 1
     }
 
     private fun setPreviousButtonEnabled(enabled: Boolean) {

@@ -176,7 +176,7 @@ fun PetBottomSheet(
                 val progressAnimation =
                     animateFloatAsState(
                         targetValue = feedValue / 50f,
-                        animationSpec = tween(durationMillis = 400, easing = FastOutSlowInEasing),
+                        animationSpec = tween(durationMillis = 400, easing = FastOutSlowInEasing), label = "",
                     )
                 val scale = (sin((progressAnimation.value - oldFeedValue) * 120) * 0.02f)
                 LinearProgressIndicator(

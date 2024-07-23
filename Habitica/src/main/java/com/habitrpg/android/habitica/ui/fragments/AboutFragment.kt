@@ -87,7 +87,6 @@ class AboutFragment : BaseMainFragment<FragmentAboutBinding>() {
 
     private val versionName: String by lazy {
         try {
-            @Suppress("DEPRECATION")
             mainActivity?.packageManager?.getPackageInfo(
                 mainActivity?.packageName ?: "",
                 0,

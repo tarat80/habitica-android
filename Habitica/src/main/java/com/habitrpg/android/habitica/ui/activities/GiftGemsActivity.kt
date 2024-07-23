@@ -38,9 +38,6 @@ class GiftGemsActivity : PurchaseActivity() {
     lateinit var socialRepository: SocialRepository
 
     @Inject
-    lateinit var appConfigManager: AppConfigManager
-
-    @Inject
     lateinit var purchaseHandler: PurchaseHandler
 
     private var giftedUsername: String? = null

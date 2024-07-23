@@ -63,8 +63,7 @@ import javax.inject.Inject
 class DeathActivity : BaseActivity(), SnackbarActivity {
     private lateinit var binding: ActivityDeathBinding
 
-    @Inject
-    internal lateinit var inventoryRepository: InventoryRepository
+
 
     @Inject
     internal lateinit var appConfigManager: AppConfigManager
