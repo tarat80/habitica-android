@@ -16,7 +16,7 @@ import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.data.ContentRepository
 import com.habitrpg.android.habitica.databinding.ActivityIntroBinding
 import com.habitrpg.android.habitica.ui.fragments.setup.IntroFragment
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
 import com.viewpagerindicator.IconPagerAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch

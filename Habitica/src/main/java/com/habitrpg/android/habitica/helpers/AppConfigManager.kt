@@ -12,13 +12,13 @@ import com.habitrpg.android.habitica.models.WorldStateEvent
 import com.habitrpg.android.habitica.models.promotions.HabiticaPromotion
 import com.habitrpg.android.habitica.models.promotions.HabiticaWebPromotion
 import com.habitrpg.android.habitica.models.promotions.getHabiticaPromotionFromKey
-import com.habitrpg.common.habitica.helpers.AppTestingLevel
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.AppTestingLevel
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import kotlinx.coroutines.MainScope
 import java.util.Date
 
 class AppConfigManager(contentRepository: ContentRepository) :
-    com.habitrpg.common.habitica.helpers.AppConfigManager() {
+    com.habitrpg.common.habitica.helpersCommon.AppConfigManager() {
     private var worldState: WorldState? = null
 
     init {

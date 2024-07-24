@@ -36,9 +36,9 @@ import com.habitrpg.android.habitica.ui.helpers.ToolbarColorHelper
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.LanguageHelper
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.LanguageHelper
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import kotlinx.coroutines.launch
 import java.io.File
 import java.io.FileNotFoundException

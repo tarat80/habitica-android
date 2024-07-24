@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.sp
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.ui.theme.colors
 import com.habitrpg.android.habitica.ui.views.HabiticaButton
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 
 @Composable
 fun PauseResumeDamageView(

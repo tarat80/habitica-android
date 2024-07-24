@@ -14,8 +14,8 @@ import com.habitrpg.android.habitica.helpers.AppConfigManager
 import com.habitrpg.android.habitica.helpers.PurchaseHandler
 import com.habitrpg.android.habitica.helpers.PurchaseTypes
 import com.habitrpg.android.habitica.interactors.InsufficientGemsUseCase
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors

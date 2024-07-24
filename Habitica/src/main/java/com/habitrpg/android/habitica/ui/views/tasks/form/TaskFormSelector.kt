@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.ui.theme.colors
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 
 data class LabeledValue<V>(val label: String, val value: V)
 

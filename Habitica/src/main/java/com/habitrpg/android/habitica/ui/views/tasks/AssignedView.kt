@@ -31,7 +31,7 @@ import com.habitrpg.android.habitica.models.Assignable
 import com.habitrpg.android.habitica.ui.theme.colors
 import com.habitrpg.android.habitica.ui.views.CompletedAt
 import com.habitrpg.android.habitica.ui.views.UserRow
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import java.util.Date
 
 @Composable

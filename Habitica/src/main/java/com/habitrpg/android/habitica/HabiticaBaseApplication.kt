@@ -37,10 +37,10 @@ import com.habitrpg.android.habitica.ui.activities.BaseActivity
 import com.habitrpg.android.habitica.ui.activities.LoginActivity
 import com.habitrpg.android.habitica.ui.views.HabiticaIconsHelper
 import com.habitrpg.common.habitica.extensionsCommon.setupCoil
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.LanguageHelper
-import com.habitrpg.common.habitica.helpers.MarkdownParser
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.LanguageHelper
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.android.HiltAndroidApp
 import io.realm.Realm
 import io.realm.RealmConfiguration

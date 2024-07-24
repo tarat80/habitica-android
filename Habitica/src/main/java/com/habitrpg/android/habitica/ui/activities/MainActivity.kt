@@ -88,10 +88,10 @@ import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
 import com.habitrpg.common.habitica.extensionsCommon.observeOnce
 import com.habitrpg.common.habitica.extensionsCommon.setScaledPadding
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import com.habitrpg.common.habitica.viewsCommon.AvatarView
 import com.habitrpg.common.habitica.viewsCommon.ComposableAvatarView
 import com.habitrpg.shared.habitica.models.responses.MaintenanceResponse

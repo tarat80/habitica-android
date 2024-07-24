@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.core.content.edit
 import com.habitrpg.common.habitica.BuildConfig
-import com.habitrpg.common.habitica.helpers.KeyHelper
+import com.habitrpg.common.habitica.helpersCommon.KeyHelper
 
 class HostConfig {
     var address: String

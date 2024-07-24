@@ -6,7 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.habitrpg.android.habitica.data.UserRepository
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

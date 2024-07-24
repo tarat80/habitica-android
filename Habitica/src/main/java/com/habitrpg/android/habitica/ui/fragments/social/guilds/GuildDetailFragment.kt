@@ -26,9 +26,9 @@ import com.habitrpg.android.habitica.ui.viewmodels.GroupViewModel
 import com.habitrpg.android.habitica.ui.views.HabiticaIconsHelper
 import com.habitrpg.android.habitica.ui.views.SnackbarActivity
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.helpers.setMarkdown
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.setMarkdown
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay

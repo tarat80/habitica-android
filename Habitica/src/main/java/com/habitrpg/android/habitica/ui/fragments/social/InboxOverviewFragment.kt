@@ -24,9 +24,9 @@ import com.habitrpg.android.habitica.ui.helpers.dismissKeyboard
 import com.habitrpg.android.habitica.ui.viewmodels.MainUserViewModel
 import com.habitrpg.android.habitica.ui.views.UsernameLabel
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import com.habitrpg.common.habitica.viewsCommon.AvatarView
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch

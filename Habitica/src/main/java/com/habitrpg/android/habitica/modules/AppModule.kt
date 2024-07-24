@@ -11,8 +11,8 @@ import com.habitrpg.android.habitica.helpers.AppConfigManager
 import com.habitrpg.android.habitica.helpers.ReviewManager
 import com.habitrpg.android.habitica.helpers.SoundFileLoader
 import com.habitrpg.android.habitica.helpers.notifications.PushNotificationManager
-import com.habitrpg.common.habitica.helpers.KeyHelper
-import com.habitrpg.common.habitica.helpers.KeyHelper.Companion.getInstance
+import com.habitrpg.common.habitica.helpersCommon.KeyHelper
+import com.habitrpg.common.habitica.helpersCommon.KeyHelper.Companion.getInstance
 import com.habitrpg.shared.habitica.HLogger
 import dagger.Module
 import dagger.Provides

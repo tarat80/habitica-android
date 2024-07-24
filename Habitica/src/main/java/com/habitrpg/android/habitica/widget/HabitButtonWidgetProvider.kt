@@ -7,7 +7,7 @@ import android.content.Intent
 import android.widget.RemoteViews
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.data.TaskRepository
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
 import com.habitrpg.shared.habitica.models.responses.TaskDirection
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.MainScope

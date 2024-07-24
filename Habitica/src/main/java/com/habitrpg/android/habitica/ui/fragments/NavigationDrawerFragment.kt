@@ -46,8 +46,8 @@ import com.habitrpg.android.habitica.ui.viewmodels.MainUserViewModel
 import com.habitrpg.android.habitica.ui.viewmodels.NotificationsViewModel
 import com.habitrpg.android.habitica.ui.views.HabiticaSnackbar
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.android.AndroidEntryPoint
 import io.realm.kotlin.isValid
 import kotlinx.coroutines.Dispatchers

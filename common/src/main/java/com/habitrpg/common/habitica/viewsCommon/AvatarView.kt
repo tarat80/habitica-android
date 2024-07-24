@@ -23,7 +23,7 @@ import com.habitrpg.common.habitica.BuildConfig
 import com.habitrpg.common.habitica.R
 import com.habitrpg.common.habitica.extensionsCommon.DataBindingUtils
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
-import com.habitrpg.common.habitica.helpers.AppConfigManager
+import com.habitrpg.common.habitica.helpersCommon.AppConfigManager
 import com.habitrpg.shared.habitica.models.Avatar
 import java.util.Date
 import java.util.EnumMap

@@ -17,9 +17,9 @@ import com.habitrpg.android.habitica.helpers.AppConfigManager
 import com.habitrpg.android.habitica.ui.fragments.BaseMainFragment
 import com.habitrpg.android.habitica.ui.viewmodels.MainUserViewModel
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
-import com.habitrpg.common.habitica.helpers.AppTestingLevel
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.AppTestingLevel
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 import com.jaredrummler.android.device.DeviceName
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch

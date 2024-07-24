@@ -36,7 +36,7 @@ import androidx.fragment.app.Fragment
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.ui.theme.colors
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 

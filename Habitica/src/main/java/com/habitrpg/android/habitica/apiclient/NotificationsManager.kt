@@ -3,8 +3,8 @@ package com.habitrpg.android.habitica.apiclient
 import android.content.Context
 import androidx.core.app.NotificationManagerCompat
 import com.habitrpg.android.habitica.models.tasks.Task
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.models.Notification
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.modelsCommon.Notification
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow

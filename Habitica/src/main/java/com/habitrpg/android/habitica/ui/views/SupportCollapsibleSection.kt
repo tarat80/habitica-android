@@ -10,7 +10,7 @@ import androidx.core.view.isVisible
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.databinding.SupportCollapsibleSectionBinding
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
-import com.habitrpg.common.habitica.helpers.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
 
 class SupportCollapsibleSection : LinearLayout {
     constructor(context: Context) : super(context) {

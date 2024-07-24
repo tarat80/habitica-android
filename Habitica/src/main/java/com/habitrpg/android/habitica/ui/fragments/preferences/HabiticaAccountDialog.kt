@@ -27,7 +27,7 @@ import com.habitrpg.android.habitica.extensions.addCancelButton
 import com.habitrpg.android.habitica.extensions.addOkButton
 import com.habitrpg.android.habitica.models.user.User
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

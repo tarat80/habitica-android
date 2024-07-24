@@ -22,8 +22,8 @@ import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import com.habitrpg.shared.habitica.models.tasks.TaskType
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay

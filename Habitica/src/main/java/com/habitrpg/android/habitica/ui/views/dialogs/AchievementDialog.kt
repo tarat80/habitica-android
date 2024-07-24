@@ -11,8 +11,8 @@ import com.habitrpg.android.habitica.models.user.User
 import com.habitrpg.common.habitica.extensionsCommon.fromHtml
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.models.Notification
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.modelsCommon.Notification
 
 class AchievementDialog(context: Context) : HabiticaAlertDialog(context) {
     var isLastOnboardingAchievement: Boolean = false

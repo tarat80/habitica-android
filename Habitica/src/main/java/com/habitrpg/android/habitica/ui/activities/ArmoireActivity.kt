@@ -28,9 +28,9 @@ import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaBottomSheetDialog
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
 import com.habitrpg.common.habitica.extensionsCommon.observeOnce
-import com.habitrpg.common.habitica.helpers.Animations
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.Animations
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import com.habitrpg.common.habitica.viewsCommon.CircularProgressComposable
 import com.plattysoft.leonids.ParticleSystem
 import dagger.hilt.android.AndroidEntryPoint

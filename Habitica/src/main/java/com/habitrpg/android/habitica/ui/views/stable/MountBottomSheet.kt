@@ -40,8 +40,8 @@ import com.habitrpg.android.habitica.models.inventory.Mount
 import com.habitrpg.android.habitica.ui.theme.colors
 import com.habitrpg.android.habitica.ui.views.BackgroundScene
 import com.habitrpg.android.habitica.ui.views.HabiticaButton
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import kotlinx.coroutines.MainScope
 import java.util.Calendar
 

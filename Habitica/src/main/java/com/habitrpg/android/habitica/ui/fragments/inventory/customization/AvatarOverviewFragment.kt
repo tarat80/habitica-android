@@ -48,9 +48,9 @@ import com.habitrpg.android.habitica.ui.viewmodels.MainUserViewModel
 import com.habitrpg.android.habitica.ui.views.SegmentedControl
 import com.habitrpg.android.habitica.ui.views.equipment.AvatarCustomizationOverviewView
 import com.habitrpg.android.habitica.ui.views.equipment.EquipmentOverviewView
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import com.habitrpg.common.habitica.viewsCommon.ComposableAvatarView
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.firstOrNull

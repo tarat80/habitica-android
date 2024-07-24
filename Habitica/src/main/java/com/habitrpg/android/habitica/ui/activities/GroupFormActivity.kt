@@ -9,7 +9,7 @@ import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.databinding.ActivityGroupFormBinding
 import com.habitrpg.android.habitica.ui.helpers.AutocompleteAdapter
 import com.habitrpg.android.habitica.ui.helpers.dismissKeyboard
-import com.habitrpg.common.habitica.helpers.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

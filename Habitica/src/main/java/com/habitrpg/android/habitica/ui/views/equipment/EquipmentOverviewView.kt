@@ -29,8 +29,8 @@ import com.habitrpg.android.habitica.models.user.Preferences
 import com.habitrpg.android.habitica.ui.theme.colors
 import com.habitrpg.android.habitica.ui.theme.pixelArtBackground
 import com.habitrpg.android.habitica.ui.views.PixelArtView
-import com.habitrpg.common.habitica.theme.HabiticaTheme
-import com.habitrpg.common.habitica.theme.caption2
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.caption2
 
 @Composable
 fun OverviewItem(

@@ -60,7 +60,7 @@ import com.habitrpg.android.habitica.utils.TaskTagDeserializer;
 import com.habitrpg.android.habitica.utils.TutorialStepListDeserializer;
 import com.habitrpg.android.habitica.utils.UserDeserializer;
 import com.habitrpg.android.habitica.utils.WorldStateSerialization;
-import com.habitrpg.common.habitica.models.Notification;
+import com.habitrpg.common.habitica.modelsCommon.Notification;
 import com.habitrpg.shared.habitica.models.responses.FeedResponse;
 
 import java.lang.reflect.Type;

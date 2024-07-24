@@ -16,10 +16,10 @@ import com.habitrpg.android.habitica.models.social.Challenge
 import com.habitrpg.android.habitica.models.social.ChatMessage
 import com.habitrpg.android.habitica.models.social.Group
 import com.habitrpg.android.habitica.ui.views.LoadingButtonState
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.models.notifications.NewChatMessageData
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.modelsCommon.notifications.NewChatMessageData
 import dagger.hilt.android.lifecycle.HiltViewModel
 import io.realm.kotlin.toFlow
 import kotlinx.coroutines.ExperimentalCoroutinesApi

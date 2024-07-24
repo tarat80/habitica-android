@@ -43,8 +43,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.ui.theme.colors
-import com.habitrpg.common.habitica.helpers.NumberAbbreviator
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.NumberAbbreviator
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import java.text.NumberFormat
 
 @Composable

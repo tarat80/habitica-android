@@ -14,8 +14,8 @@ import com.habitrpg.android.habitica.models.invitations.GenericInvitation
 import com.habitrpg.android.habitica.models.members.Member
 import com.habitrpg.common.habitica.extensionsCommon.flash
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.setMarkdown
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.setMarkdown
 import kotlinx.coroutines.launch
 
 class InvitationsView

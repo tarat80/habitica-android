@@ -27,7 +27,7 @@ import com.habitrpg.android.habitica.ui.views.dialogs.DetailDialog
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
 import com.habitrpg.common.habitica.extensionsCommon.localizedCapitalizeWithSpaces
-import com.habitrpg.common.habitica.helpers.setMarkdown
+import com.habitrpg.common.habitica.helpersCommon.setMarkdown
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

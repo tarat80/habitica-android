@@ -8,7 +8,7 @@ import com.habitrpg.android.habitica.ui.activities.LoginActivity
 import com.habitrpg.android.habitica.ui.activities.MainActivity
 import com.habitrpg.android.habitica.ui.activities.TaskFormActivity
 import com.habitrpg.android.habitica.apiService.HostConfig
-import com.habitrpg.common.habitica.helpers.DeviceCommunication
+import com.habitrpg.common.habitica.helpersCommon.DeviceCommunication
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

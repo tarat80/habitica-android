@@ -1,6 +1,6 @@
 package com.habitrpg.common.habitica.extensionsCommon
 
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlin.time.DurationUnit

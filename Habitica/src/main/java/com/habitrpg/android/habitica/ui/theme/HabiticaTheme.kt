@@ -9,8 +9,8 @@ import androidx.core.content.ContextCompat
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.models.tasks.Task
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
-import com.habitrpg.common.habitica.theme.HabiticaColors
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaColors
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 
 @Composable
 fun HabiticaColors.textPrimaryFor(task: Task?): Color {

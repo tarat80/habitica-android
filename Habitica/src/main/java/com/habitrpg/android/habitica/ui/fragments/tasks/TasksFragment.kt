@@ -33,8 +33,8 @@ import com.habitrpg.android.habitica.ui.views.navigation.HabiticaBottomNavigatio
 import com.habitrpg.android.habitica.ui.views.tasks.TaskFilterDialog
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
 import com.habitrpg.common.habitica.extensionsCommon.setTintWith
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import com.habitrpg.shared.habitica.models.tasks.TaskType
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Date

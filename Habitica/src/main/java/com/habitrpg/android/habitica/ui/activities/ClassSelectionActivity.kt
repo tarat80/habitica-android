@@ -42,8 +42,8 @@ import com.habitrpg.android.habitica.rpgClassSelectScreen.ClassSelectionCargo
 import com.habitrpg.android.habitica.rpgClassSelectScreen.ClassSelectionViewModel
 import com.habitrpg.android.habitica.rpgClassSelectScreen.RpgClassItem
 import com.habitrpg.android.habitica.rpgClassSelectScreen.RpgClassProvider
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 

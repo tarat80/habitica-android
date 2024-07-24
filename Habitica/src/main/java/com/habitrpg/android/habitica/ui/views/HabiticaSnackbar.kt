@@ -13,7 +13,7 @@ import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.databinding.SnackbarViewBinding
-import com.habitrpg.common.habitica.helpers.Animations
+import com.habitrpg.common.habitica.helpersCommon.Animations
 import com.plattysoft.leonids.ParticleSystem
 
 class HabiticaSnackbar

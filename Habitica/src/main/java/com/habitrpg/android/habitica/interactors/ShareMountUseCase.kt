@@ -17,7 +17,7 @@ import com.habitrpg.android.habitica.ui.activities.BaseActivity
 import com.habitrpg.android.habitica.ui.views.BackgroundScene
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import kotlinx.coroutines.delay
 
 class ShareMountUseCase : UseCase<ShareMountUseCase.RequestValues, Unit>() {

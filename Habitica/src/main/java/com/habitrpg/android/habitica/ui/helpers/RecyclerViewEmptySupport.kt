@@ -3,9 +3,9 @@ package com.habitrpg.android.habitica.ui.helpers
 import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.RecyclerView
-import com.habitrpg.common.habitica.helpers.EmptyItem
-import com.habitrpg.common.habitica.helpers.RecyclerViewState
-import com.habitrpg.common.habitica.helpers.RecyclerViewStateAdapter
+import com.habitrpg.common.habitica.helpersCommon.EmptyItem
+import com.habitrpg.common.habitica.helpersCommon.RecyclerViewState
+import com.habitrpg.common.habitica.helpersCommon.RecyclerViewStateAdapter
 
 class RecyclerViewEmptySupport
     @JvmOverloads

@@ -24,9 +24,9 @@ import com.habitrpg.android.habitica.helpers.Analytics
 import com.habitrpg.android.habitica.modules.AuthenticationHandler
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
 import com.habitrpg.android.habitica.apiService.HostConfig
-import com.habitrpg.common.habitica.helpers.KeyHelper
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.models.auth.UserAuthResponse
+import com.habitrpg.common.habitica.helpersCommon.KeyHelper
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.modelsCommon.auth.UserAuthResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject

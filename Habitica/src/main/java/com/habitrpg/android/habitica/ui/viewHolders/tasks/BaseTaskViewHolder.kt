@@ -19,8 +19,8 @@ import com.habitrpg.android.habitica.ui.viewHolders.BindableViewHolder
 import com.habitrpg.android.habitica.ui.views.EllipsisTextView
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
-import com.habitrpg.common.habitica.helpers.MarkdownParser
-import com.habitrpg.common.habitica.helpers.setParsedMarkdown
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.setParsedMarkdown
 import com.habitrpg.shared.habitica.models.responses.TaskDirection
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.MainScope

@@ -32,7 +32,7 @@ import com.habitrpg.android.habitica.ui.views.insufficientCurrency.InsufficientG
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.fromHtml
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 
 class ShopRecyclerAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<ViewHolder>() {
     var completedQuests: List<String?> = emptyList()

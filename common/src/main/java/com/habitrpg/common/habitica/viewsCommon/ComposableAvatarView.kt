@@ -3,7 +3,7 @@ package com.habitrpg.common.habitica.viewsCommon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
-import com.habitrpg.common.habitica.helpers.AppConfigManager
+import com.habitrpg.common.habitica.helpersCommon.AppConfigManager
 import com.habitrpg.shared.habitica.models.Avatar
 
 @Composable

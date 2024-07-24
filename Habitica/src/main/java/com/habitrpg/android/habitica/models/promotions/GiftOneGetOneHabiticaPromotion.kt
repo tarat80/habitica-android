@@ -14,7 +14,7 @@ import com.habitrpg.android.habitica.ui.fragments.PromoInfoFragment
 import com.habitrpg.android.habitica.ui.fragments.purchases.SubscriptionFragment
 import com.habitrpg.android.habitica.ui.views.promo.PromoMenuView
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

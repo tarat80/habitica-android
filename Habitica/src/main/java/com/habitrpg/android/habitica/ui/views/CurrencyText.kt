@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.habitrpg.android.habitica.R
-import com.habitrpg.common.habitica.helpers.NumberAbbreviator
+import com.habitrpg.common.habitica.helpersCommon.NumberAbbreviator
 
 @Composable
 fun CurrencyText(

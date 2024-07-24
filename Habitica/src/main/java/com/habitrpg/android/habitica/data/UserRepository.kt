@@ -13,7 +13,7 @@ import com.habitrpg.android.habitica.models.tasks.Task
 import com.habitrpg.android.habitica.models.user.Stats
 import com.habitrpg.android.habitica.models.user.User
 import com.habitrpg.android.habitica.models.user.UserQuestStatus
-import com.habitrpg.common.habitica.models.Notification
+import com.habitrpg.common.habitica.modelsCommon.Notification
 import com.habitrpg.shared.habitica.models.responses.VerifyUsernameResponse
 import com.habitrpg.shared.habitica.models.tasks.Attribute
 import kotlinx.coroutines.flow.Flow

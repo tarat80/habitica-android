@@ -17,8 +17,8 @@ import com.habitrpg.android.habitica.ui.views.BackgroundScene
 import com.habitrpg.android.habitica.ui.views.dialogs.HabiticaAlertDialog
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import kotlinx.coroutines.MainScope
 import javax.inject.Inject
 

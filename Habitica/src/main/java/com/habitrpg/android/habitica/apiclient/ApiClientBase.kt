@@ -3,7 +3,7 @@ package com.habitrpg.android.habitica.apiclient
 import com.google.gson.JsonSyntaxException
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.helpers.Analytics
-import com.habitrpg.common.habitica.models.HabitResponse
+import com.habitrpg.common.habitica.modelsCommon.HabitResponse
 import retrofit2.Converter
 import retrofit2.HttpException
 import java.io.IOException

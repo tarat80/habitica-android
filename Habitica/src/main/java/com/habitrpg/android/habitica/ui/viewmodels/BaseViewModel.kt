@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.habitrpg.android.habitica.data.UserRepository
 import com.habitrpg.android.habitica.models.user.User
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
 import kotlinx.coroutines.launch
 
 abstract class BaseViewModel(

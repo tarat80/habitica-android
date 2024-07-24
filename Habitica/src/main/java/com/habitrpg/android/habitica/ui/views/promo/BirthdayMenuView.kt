@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.extensions.getShortRemainingString
 import com.habitrpg.android.habitica.ui.views.PixelArtView
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import java.util.Date

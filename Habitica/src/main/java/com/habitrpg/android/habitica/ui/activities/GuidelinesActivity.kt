@@ -4,8 +4,8 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.TextView
 import com.habitrpg.android.habitica.R
-import com.habitrpg.common.habitica.helpers.ExceptionHandler
-import com.habitrpg.common.habitica.helpers.setMarkdown
+import com.habitrpg.common.habitica.helpersCommon.ExceptionHandler
+import com.habitrpg.common.habitica.helpersCommon.setMarkdown
 import dagger.hilt.android.AndroidEntryPoint
 import okhttp3.Call
 import okhttp3.Callback

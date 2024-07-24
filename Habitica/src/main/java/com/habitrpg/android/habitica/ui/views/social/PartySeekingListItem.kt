@@ -40,8 +40,8 @@ import com.habitrpg.android.habitica.ui.views.ClassText
 import com.habitrpg.android.habitica.ui.views.ComposableUsernameLabel
 import com.habitrpg.android.habitica.ui.views.LoadingButtonState
 import com.habitrpg.common.habitica.extensionsCommon.toLocale
-import com.habitrpg.common.habitica.helpers.MainNavigationController
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import com.habitrpg.common.habitica.viewsCommon.ComposableAvatarView
 import java.util.Locale
 import kotlin.random.Random

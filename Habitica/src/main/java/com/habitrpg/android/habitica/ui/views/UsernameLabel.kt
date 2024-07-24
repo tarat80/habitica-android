@@ -28,7 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import com.habitrpg.common.habitica.R
-import com.habitrpg.common.habitica.models.PlayerTier
+import com.habitrpg.common.habitica.modelsCommon.PlayerTier
 
 class UsernameLabel
     @JvmOverloads

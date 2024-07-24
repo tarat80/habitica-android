@@ -18,8 +18,8 @@ import com.habitrpg.android.habitica.models.tasks.ChecklistItem
 import com.habitrpg.android.habitica.models.tasks.Task
 import com.habitrpg.common.habitica.extensionsCommon.getThemeColor
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
-import com.habitrpg.common.habitica.helpers.MarkdownParser
-import com.habitrpg.common.habitica.helpers.setParsedMarkdown
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.setParsedMarkdown
 import com.habitrpg.shared.habitica.models.responses.TaskDirection
 import com.habitrpg.shared.habitica.models.tasks.TaskType
 import kotlinx.coroutines.Dispatchers

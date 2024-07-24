@@ -9,8 +9,8 @@ import androidx.lifecycle.lifecycleScope
 import com.habitrpg.android.habitica.data.FAQRepository
 import com.habitrpg.android.habitica.databinding.FragmentFaqDetailBinding
 import com.habitrpg.android.habitica.ui.fragments.BaseMainFragment
-import com.habitrpg.common.habitica.helpers.MarkdownParser
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

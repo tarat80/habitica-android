@@ -1,6 +1,6 @@
 package com.habitrpg.android.habitica.helpers
 
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import kotlinx.coroutines.MainScope
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -11,7 +11,7 @@ import com.habitrpg.android.habitica.apiclient.OkhttpWrapper
 import com.habitrpg.android.habitica.apiclient.MainNotificationsManager
 import com.habitrpg.android.habitica.apiclient.NotificationsManager
 import com.habitrpg.android.habitica.apiService.HostConfig
-import com.habitrpg.common.habitica.helpers.KeyHelper
+import com.habitrpg.common.habitica.helpersCommon.KeyHelper
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

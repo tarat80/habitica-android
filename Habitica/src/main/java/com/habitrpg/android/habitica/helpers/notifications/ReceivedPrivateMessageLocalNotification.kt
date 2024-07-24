@@ -12,7 +12,7 @@ import androidx.core.os.bundleOf
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.extensions.withMutableFlag
 import com.habitrpg.android.habitica.receivers.LocalNotificationActionReceiver
-import com.habitrpg.common.habitica.helpers.EmojiParser
+import com.habitrpg.common.habitica.helpersCommon.EmojiParser
 
 class ReceivedPrivateMessageLocalNotification(context: Context, identifier: String?) :
     HabiticaLocalNotification(context, identifier) {

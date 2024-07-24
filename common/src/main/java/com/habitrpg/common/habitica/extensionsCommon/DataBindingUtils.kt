@@ -13,7 +13,7 @@ import androidx.core.graphics.drawable.toBitmap
 import coil.imageLoader
 import coil.request.ImageRequest
 import com.habitrpg.common.habitica.R
-import com.habitrpg.common.habitica.helpers.AppConfigManager
+import com.habitrpg.common.habitica.helpersCommon.AppConfigManager
 import com.habitrpg.common.habitica.viewsCommon.PixelArtView
 import java.util.Date
 

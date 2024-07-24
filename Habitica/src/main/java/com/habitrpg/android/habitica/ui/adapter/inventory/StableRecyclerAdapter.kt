@@ -24,7 +24,7 @@ import com.habitrpg.android.habitica.ui.viewHolders.MountViewHolder
 import com.habitrpg.android.habitica.ui.viewHolders.PetViewHolder
 import com.habitrpg.android.habitica.ui.viewHolders.SectionViewHolder
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 import com.habitrpg.common.habitica.viewsCommon.PixelArtView
 import com.habitrpg.shared.habitica.models.responses.FeedResponse
 

@@ -15,7 +15,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
 import com.habitrpg.common.habitica.R
 import com.habitrpg.common.habitica.extensionsCommon.isUsingNightModeResources
-import com.habitrpg.common.habitica.helpers.NumberAbbreviator
+import com.habitrpg.common.habitica.helpersCommon.NumberAbbreviator
 
 class CurrencyView : androidx.appcompat.widget.AppCompatTextView {
     var hideWhenEmpty: Boolean = false

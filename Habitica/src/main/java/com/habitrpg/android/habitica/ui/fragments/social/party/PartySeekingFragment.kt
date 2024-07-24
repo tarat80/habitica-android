@@ -71,8 +71,8 @@ import com.habitrpg.android.habitica.ui.views.LoadingButtonState
 import com.habitrpg.android.habitica.ui.views.LoadingButtonType
 import com.habitrpg.android.habitica.ui.views.progress.HabiticaPullRefreshIndicator
 import com.habitrpg.android.habitica.ui.views.social.PartySeekingListItem
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.theme.HabiticaTheme
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.themeCommon.HabiticaTheme
 import com.habitrpg.common.habitica.viewsCommon.CircularProgressComposable
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.lifecycle.HiltViewModel

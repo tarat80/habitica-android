@@ -9,8 +9,8 @@ import androidx.lifecycle.lifecycleScope
 import com.habitrpg.android.habitica.R
 import com.habitrpg.android.habitica.apiService.MaintenanceApiService
 import com.habitrpg.android.habitica.databinding.ActivityMaintenanceBinding
-import com.habitrpg.common.habitica.helpers.launchCatching
-import com.habitrpg.common.habitica.helpers.setMarkdown
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.setMarkdown
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

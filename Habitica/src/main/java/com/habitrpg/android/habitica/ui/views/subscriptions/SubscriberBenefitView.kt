@@ -10,7 +10,7 @@ import com.habitrpg.android.habitica.databinding.SubscriptionBenefitsBinding
 import com.habitrpg.android.habitica.helpers.AppConfigManager
 import com.habitrpg.common.habitica.extensionsCommon.layoutInflater
 import com.habitrpg.common.habitica.extensionsCommon.loadImage
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors

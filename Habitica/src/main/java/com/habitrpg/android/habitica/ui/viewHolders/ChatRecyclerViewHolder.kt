@@ -21,8 +21,8 @@ import com.habitrpg.android.habitica.ui.views.HabiticaIconsHelper
 import com.habitrpg.common.habitica.extensionsCommon.DataBindingUtils
 import com.habitrpg.common.habitica.extensionsCommon.dpToPx
 import com.habitrpg.common.habitica.extensionsCommon.setScaledPadding
-import com.habitrpg.common.habitica.helpers.MarkdownParser
-import com.habitrpg.common.habitica.helpers.setParsedMarkdown
+import com.habitrpg.common.habitica.helpersCommon.MarkdownParser
+import com.habitrpg.common.habitica.helpersCommon.setParsedMarkdown
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch

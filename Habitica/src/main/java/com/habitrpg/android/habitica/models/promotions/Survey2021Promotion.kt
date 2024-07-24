@@ -11,7 +11,7 @@ import com.habitrpg.android.habitica.databinding.PurchaseGemViewBinding
 import com.habitrpg.android.habitica.ui.fragments.PromoInfoFragment
 import com.habitrpg.android.habitica.ui.fragments.PromoWebFragmentArgs
 import com.habitrpg.android.habitica.ui.views.promo.PromoMenuView
-import com.habitrpg.common.habitica.helpers.MainNavigationController
+import com.habitrpg.common.habitica.helpersCommon.MainNavigationController
 import java.util.Date
 
 class Survey2021Promotion : HabiticaPromotion(), HabiticaWebPromotion {

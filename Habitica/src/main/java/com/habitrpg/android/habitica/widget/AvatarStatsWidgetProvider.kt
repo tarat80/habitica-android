@@ -12,9 +12,9 @@ import com.habitrpg.android.habitica.extensions.withImmutableFlag
 import com.habitrpg.android.habitica.models.user.User
 import com.habitrpg.android.habitica.ui.activities.MainActivity
 import com.habitrpg.android.habitica.ui.views.HabiticaIconsHelper
-import com.habitrpg.common.habitica.helpers.HealthFormatter
-import com.habitrpg.common.habitica.helpers.NumberAbbreviator
-import com.habitrpg.common.habitica.helpers.launchCatching
+import com.habitrpg.common.habitica.helpersCommon.HealthFormatter
+import com.habitrpg.common.habitica.helpersCommon.NumberAbbreviator
+import com.habitrpg.common.habitica.helpersCommon.launchCatching
 import com.habitrpg.common.habitica.viewsCommon.AvatarView
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.MainScope
