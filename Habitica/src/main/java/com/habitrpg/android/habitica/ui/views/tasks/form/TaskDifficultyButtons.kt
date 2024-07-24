@@ -54,7 +54,7 @@ fun TaskDifficultySelector(
     modifier: Modifier = Modifier,
 ) {
     Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = modifier.fillMaxWidth()) {
-        for (difficulty in TaskDifficulty.values())
+        for (difficulty in TaskDifficulty.entries)
             TaskDifficultySelection(
                 value = difficulty,
                 selected = selected == difficulty,
@@ -79,14 +79,14 @@ private fun TaskDifficultySelection(
     onSelect: (TaskDifficulty) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    val selectedState = updateTransition(selected)
+    val selectedState = updateTransition(selected, label = "")
     val context = LocalContext.current
     val iconColor =
-        selectedState.animateColor {
+        selectedState.animateColor(label = "") {
             if (it) HabiticaTheme.colors.tintedUiDetails else Color(context.getThemeColor(R.attr.textColorTintedSecondary))
         }
     val textColor =
-        selectedState.animateColor {
+        selectedState.animateColor(label = "") {
             if (it) {
                 Color(context.getThemeColor(R.attr.textColorTintedPrimary))
             } else {
@@ -139,7 +139,7 @@ private fun TaskDifficultySelection(
 }
 
 private class DifficultyProvider : PreviewParameterProvider<TaskDifficulty> {
-    override val values = TaskDifficulty.values().asSequence()
+    override val values = TaskDifficulty.entries.asSequence()
 }
 
 @Preview
