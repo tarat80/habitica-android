@@ -22,23 +22,10 @@ import java.lang.reflect.Type
 import java.util.Date
 
 private val JsonPrimitive.asBooleanOrFalse: Boolean
-    get() =
-        if (isBoolean) {
-            asBoolean
-        } else {
-            false
-        }
+    get() = if (isBoolean) asBoolean else false
+
 
 class TaskSerializer : JsonSerializer<Task>, JsonDeserializer<Task> {
-    private fun getIntListFromJsonArray(jsonArray: JsonArray): List<Int> {
-        val intList = ArrayList<Int>()
-
-        for (i in 0 until jsonArray.size()) {
-            intList.add(jsonArray.get(i).asInt)
-        }
-
-        return intList
-    }
 
     private fun getMonthlyDays(
         e: JsonObject,
@@ -46,12 +33,12 @@ class TaskSerializer : JsonSerializer<Task>, JsonDeserializer<Task> {
     ) {
         val weeksOfMonth = e.getAsJsonArray("weeksOfMonth")
         if (weeksOfMonth != null && weeksOfMonth.size() > 0) {
-            task.setWeeksOfMonth(getIntListFromJsonArray(weeksOfMonth))
+            task.setWeeksOfMonth( weeksOfMonth.map { it.asInt })
         }
 
         val daysOfMonth = e.getAsJsonArray("daysOfMonth")
         if (daysOfMonth != null && daysOfMonth.size() > 0) {
-            task.setDaysOfMonth(getIntListFromJsonArray(daysOfMonth))
+            task.setDaysOfMonth( daysOfMonth.map { it.asInt })
         }
     }
 
@@ -187,10 +174,10 @@ class TaskSerializer : JsonSerializer<Task>, JsonDeserializer<Task> {
                 obj.add("repeat", context.serialize(task.repeat))
                 obj.add("startDate", context.serialize(task.startDate))
                 obj.addProperty("streak", task.streak)
-                if (task.checklist != null) {
+                task.checklist?.let {
                     obj.add("checklist", serializeChecklist(task.checklist))
                 }
-                if (task.reminders != null) {
+                task.reminders?.let{
                     obj.add("reminders", serializeReminders(task.reminders))
                 }
                 obj.add("reminders", context.serialize(task.reminders))
@@ -205,10 +192,10 @@ class TaskSerializer : JsonSerializer<Task>, JsonDeserializer<Task> {
                 } else {
                     obj.add("date", context.serialize(task.dueDate))
                 }
-                if (task.checklist != null) {
+                task.checklist?.let {
                     obj.add("checklist", serializeChecklist(task.checklist))
                 }
-                if (task.reminders != null) {
+                task.reminders?.let {
                     obj.add("reminders", serializeReminders(task.reminders))
                 }
                 obj.addProperty("completed", task.completed)
@@ -238,7 +225,7 @@ class TaskSerializer : JsonSerializer<Task>, JsonDeserializer<Task> {
         reminders?.forEach { item ->
             val jsonObject = JsonObject()
             jsonObject.addProperty("id", item.id)
-            if (item.startDate != null) {
+            item.startDate?.let  {
                 jsonObject.addProperty("startDate", item.startDate)
             }
             jsonObject.addProperty("time", item.time)

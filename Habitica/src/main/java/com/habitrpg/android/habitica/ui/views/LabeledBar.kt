@@ -69,7 +69,7 @@ fun LabeledBar(
         if (animated) {
             animateFloatAsState(
                 targetValue = value.toFloat(),
-                animationSpec = spring(),
+                animationSpec = spring(), label = "",
             ).value
         } else {
             value.toFloat()
@@ -86,6 +86,7 @@ fun LabeledBar(
                 } else {
                     24.dp
                 },
+            label = "",
         )
 
     Box(

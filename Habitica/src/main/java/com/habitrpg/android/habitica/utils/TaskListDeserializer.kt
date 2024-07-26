@@ -20,7 +20,7 @@ class TaskListDeserializer : JsonDeserializer<TaskList> {
         ctx: JsonDeserializationContext,
     ): TaskList {
         val tasks = TaskList()
-        val taskMap = HashMap<String, Task>()
+        val taskMap = mutableMapOf<String, Task>()
         val deserializeTrace = FirebasePerformance.getInstance().newTrace("TaskListDeserialize")
         deserializeTrace.start()
         var databaseTags: List<Tag>
@@ -33,14 +33,11 @@ class TaskListDeserializer : JsonDeserializer<TaskList> {
             databaseTags = ArrayList()
         }
 
-        for (e in json.asJsonArray) {
+        json.asJsonArray.mapNotNull { it as? JsonObject }.forEach { obj->
             try {
-                val obj = e as? JsonObject
-                if (obj != null) {
-                    val task = ctx.deserialize<Task>(obj, Task::class.java)
-                    task.tags = handleTags(databaseTags, obj.getAsJsonArray("tags"), ctx)
-                    task.id?.let { taskMap[it] = task }
-                }
+                val task = ctx.deserialize<Task>(obj, Task::class.java)
+                task.tags = handleTags(databaseTags, obj.getAsJsonArray("tags"), ctx)
+                task.id?.let { taskMap += it to task }
             } catch (ignored: ClassCastException) {
             } catch (ignored: java.lang.UnsupportedOperationException) {
             }
@@ -82,13 +79,5 @@ class TaskListDeserializer : JsonDeserializer<TaskList> {
     private fun alreadyContainsTag(
         list: List<Tag>,
         idToCheck: String,
-    ): Boolean {
-        for (t in list) {
-            if (t.id == idToCheck) {
-                return true
-            }
-        }
-
-        return false
-    }
+    ) = list.find { it.id == idToCheck } != null
 }
