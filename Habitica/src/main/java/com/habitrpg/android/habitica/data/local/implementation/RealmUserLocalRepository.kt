@@ -36,7 +36,7 @@ class RealmUserLocalRepository(realm: Realm) :
                     .equalTo("id", it)
                     .findAll()
                     .toFlow()
-                    .filter { groups -> groups.size > 0 }
+                    .filter { groups -> groups.isNotEmpty() }
                     .map { it.firstOrNull() }
                     .filterNotNull()
             }
@@ -73,19 +73,17 @@ class RealmUserLocalRepository(realm: Realm) :
         realm.where(TutorialStep::class.java).findAll().toFlow()
             .filter { it.isLoaded }.map { it }
 
-    override fun getUser(userID: String): Flow<User> {
-        if (realm.isClosed) return emptyFlow()
-        val temp = realm.where(User::class.java)
-            .equalTo("id", userID)
-            .findAll()
-            .toFlow()
-            .filter { realmObject -> realmObject.isLoaded && realmObject.isValid && !realmObject.isEmpty() }
-            .map { users -> users.first() }
-        return flow {
-            temp.collect {
-                if (it != null) emit(it)
-            }
-        }
+    override fun getUser(userID: String): Flow<User> = flow {
+        if (!realm.isClosed)
+            realm.where(User::class.java)
+                .equalTo("id", userID)
+                .findAll()
+                .toFlow()
+                .filter { realmObject -> realmObject.isLoaded && realmObject.isValid && !realmObject.isEmpty() }
+                .map { users -> users.first() }
+                .collect {
+                    it?.let { emit(it) }
+                }
     }
 
 
@@ -119,11 +117,7 @@ class RealmUserLocalRepository(realm: Realm) :
     ) {
         val tags = realm.where(Tag::class.java).equalTo("userId", userId).findAll().createSnapshot()
         val tagsToDelete = tags.filterNot { onlineTags.contains(it) }
-        executeTransaction {
-            for (tag in tagsToDelete) {
-                tag.deleteFromRealm()
-            }
-        }
+        executeTransaction { tagsToDelete.forEach { it.deleteFromRealm() } }
     }
 
     override fun saveMessages(messages: List<ChatMessage>) {
